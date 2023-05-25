@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Char10.타입정보", "Char10.타입정보\Char10.타입정보.vcxproj", "{0F318F02-C71B-4856-94ED-26676DA934ED}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.C++의 캐스트 연산자", "02.C++의 캐스트 연산자\02.C++의 캐스트 연산자.vcxproj", "{BD6A68A7-1475-4036-BB43-AF7705DBF37E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.멤버 포인터 연산자", "03.멤버 포인터 연산자\03.멤버 포인터 연산자.vcxproj", "{1FF88331-8A8E-441F-BEFF-BCBF16718C5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F318F02-C71B-4856-94ED-26676DA934ED}.Debug|x64.ActiveCfg = Debug|x64
+		{0F318F02-C71B-4856-94ED-26676DA934ED}.Debug|x64.Build.0 = Debug|x64
+		{0F318F02-C71B-4856-94ED-26676DA934ED}.Debug|x86.ActiveCfg = Debug|Win32
+		{0F318F02-C71B-4856-94ED-26676DA934ED}.Debug|x86.Build.0 = Debug|Win32
+		{0F318F02-C71B-4856-94ED-26676DA934ED}.Release|x64.ActiveCfg = Release|x64
+		{0F318F02-C71B-4856-94ED-26676DA934ED}.Release|x64.Build.0 = Release|x64
+		{0F318F02-C71B-4856-94ED-26676DA934ED}.Release|x86.ActiveCfg = Release|Win32
+		{0F318F02-C71B-4856-94ED-26676DA934ED}.Release|x86.Build.0 = Release|Win32
+		{BD6A68A7-1475-4036-BB43-AF7705DBF37E}.Debug|x64.ActiveCfg = Debug|x64
+		{BD6A68A7-1475-4036-BB43-AF7705DBF37E}.Debug|x64.Build.0 = Debug|x64
+		{BD6A68A7-1475-4036-BB43-AF7705DBF37E}.Debug|x86.ActiveCfg = Debug|Win32
+		{BD6A68A7-1475-4036-BB43-AF7705DBF37E}.Debug|x86.Build.0 = Debug|Win32
+		{BD6A68A7-1475-4036-BB43-AF7705DBF37E}.Release|x64.ActiveCfg = Release|x64
+		{BD6A68A7-1475-4036-BB43-AF7705DBF37E}.Release|x64.Build.0 = Release|x64
+		{BD6A68A7-1475-4036-BB43-AF7705DBF37E}.Release|x86.ActiveCfg = Release|Win32
+		{BD6A68A7-1475-4036-BB43-AF7705DBF37E}.Release|x86.Build.0 = Release|Win32
+		{1FF88331-8A8E-441F-BEFF-BCBF16718C5A}.Debug|x64.ActiveCfg = Debug|x64
+		{1FF88331-8A8E-441F-BEFF-BCBF16718C5A}.Debug|x64.Build.0 = Debug|x64
+		{1FF88331-8A8E-441F-BEFF-BCBF16718C5A}.Debug|x86.ActiveCfg = Debug|Win32
+		{1FF88331-8A8E-441F-BEFF-BCBF16718C5A}.Debug|x86.Build.0 = Debug|Win32
+		{1FF88331-8A8E-441F-BEFF-BCBF16718C5A}.Release|x64.ActiveCfg = Release|x64
+		{1FF88331-8A8E-441F-BEFF-BCBF16718C5A}.Release|x64.Build.0 = Release|x64
+		{1FF88331-8A8E-441F-BEFF-BCBF16718C5A}.Release|x86.ActiveCfg = Release|Win32
+		{1FF88331-8A8E-441F-BEFF-BCBF16718C5A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88F192B8-279D-4A70-84BF-5FC88BFA611E}
+	EndGlobalSection
+EndGlobal
