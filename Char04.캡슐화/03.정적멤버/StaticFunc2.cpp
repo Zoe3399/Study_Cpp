@@ -1,15 +1,15 @@
 #include <iostream>
 
 class StaticTest {
-	static int a;	//static ¸â¹öº¯¼ö
+	static int a;	//static ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	int b;
 public:
 	StaticTest();
-	static void setData(int);	//static ¸â¹öÇÔ¼ö´Â static ¸â¹öº¯¼ö¿¡ »ç¿ëÇÑ´Ù.
+	static void setData(int);	//static ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ static ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
 	void getData();
 };
 
-int StaticTest::a = 10;	//static ¸â¹ö º¯¼ö ÃÊ±âÈ­
+int StaticTest::a = 10;	//static ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­
 
 StaticTest::StaticTest()
 {
@@ -23,7 +23,7 @@ void StaticTest::getData()
 
 void StaticTest::setData(int aa)
 {
-	//this->a = aa;		//this Æ÷ÀÎÅÍ¸¦ »ç¿ëÇÒ ¼ö ¾ø´Ù.(Áï, °³Ã¼²² ¾Æ´Ï´Ù)
+	//this->a = aa;		//this ï¿½ï¿½ï¿½ï¿½ï¿½Í¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.(ï¿½ï¿½, ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½Æ´Ï´)
 	a = aa;
 }
 
@@ -37,7 +37,7 @@ int main() {
 	s1.getData();
 	s2.getData();
 
-	StaticTest::setData(40);	//Å¬·¡½º¼Ò¼ÓÀ¸·Î Å¬·¡½º·Î È£ÃâÀÌ °¡´ÉÇÏ´Ù.
+	StaticTest::setData(40);	//Å¬ï¿½ï¿½ï¿½ï¿½ï¿½Ò¼ï¿½ï¿½ï¿½ï¿½ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.
 	s1.getData();
 	s2.getData();
 
